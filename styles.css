@@ -1418,6 +1418,10 @@ section {
     margin-bottom: 48px;
   }
 
+  .subpage-hero {
+    padding: 120px 0 40px;
+  }
+
   :root {
     --section-padding: 70px 0;
   }
@@ -1431,6 +1435,10 @@ section {
 
   .hero h1 {
     font-size: clamp(2rem, 10vw, 2.8rem);
+  }
+
+  .subpage-hero {
+    padding: 100px 0 30px;
   }
 
   .hero-avatar-ring {
