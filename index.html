@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital Team de inVicta Business Partners — Estrategia, tecnología y datos para fortalecer la presencia digital de la empresa.">
+  <title>Digital Team — inVicta Business Partners</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/img/bombilla.svg">
+</head>
+<body>
+
+  <!-- Ambient Particles -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="navbar-brand">
+        <img src="assets/img/bombilla.svg" alt="inVicta" class="brand-logo-icon">
+        <span>inVicta</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="active">Inicio</a></li>
+        <li><a href="#areas">Áreas</a></li>
+        <li><a href="#datos-clave">Datos Clave</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#metas">Metas 2026</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-eyebrow reveal">inVicta Business Partners</div>
+      <h1 class="reveal reveal-delay-1">
+        <span class="line"><span class="italic-accent">Digital</span></span>
+        <span class="line">Team</span>
+      </h1>
+      <p class="hero-subtitle reveal reveal-delay-2">
+        Impulsamos la <strong>presencia digital</strong> de <strong>Invicta Business Partners</strong> mediante <span class="accent-text">estrategia, datos y optimización continua</span> de los canales digitales.
+      </p>
+
+      <!-- Team Avatars Row -->
+      <div class="hero-avatars reveal reveal-delay-3">
+        <div class="hero-avatar">
+          <div class="hero-avatar-ring">
+            <img src="assets/img/sara.jpeg" alt="Sara" loading="lazy">
+          </div>
+          <span>Sara</span>
+        </div>
+        <div class="hero-avatar">
+          <div class="hero-avatar-ring">
+            <img src="assets/img/joyce.jpeg" alt="Joyce" loading="lazy">
+          </div>
+          <span>Joyce</span>
+        </div>
+        <div class="hero-avatar">
+          <div class="hero-avatar-ring">
+            <img src="assets/img/adrian.jpeg" alt="Adrián" loading="lazy">
+          </div>
+          <span>Adrián</span>
+        </div>
+        <div class="hero-avatar">
+          <div class="hero-avatar-ring">
+            <img src="assets/img/jesus.jpeg" alt="Jesús" loading="lazy">
+          </div>
+          <span>Jesús</span>
+        </div>
+        <div class="hero-avatar">
+          <div class="hero-avatar-ring">
+            <img src="assets/img/marianita.png" alt="Mariana" loading="lazy">
+          </div>
+          <span>Mariana</span>
+        </div>
+        <div class="hero-avatar hero-bombilla">
+          <div class="hero-avatar-ring">
+            <img src="assets/img/bombilla.svg" alt="Idea" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator reveal reveal-delay-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="scroll-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ÁREAS — ¿Qué hace el Digital Team? ═══════════════ -->
+  <section class="areas" id="areas">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-eyebrow reveal">Nuestras Áreas</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          ¿Qué hace el <span class="italic-accent">Digital</span> Team?
+        </h2>
+        <p class="section-subtitle reveal reveal-delay-2">El área de Digital es responsable de <strong>planificar, ejecutar y optimizar</strong> la presencia de la empresa en los canales digitales con el objetivo de atraer usuarios, generar leads y mejorar la experiencia online.</p>
+      </div>
+
+      <div class="areas-grid">
+
+        <!-- Paid Media Card -->
+        <article class="area-card" data-particle-shape="dollar">
+          <div class="area-card-header">
+            <div class="area-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+              </svg>
+            </div>
+            <div>
+              <h3>Paid Media</h3>
+              <p class="area-subtitle">Publicidad Digital</p>
+            </div>
+          </div>
+          <p class="area-desc">Planificación, ejecución y optimización de campañas de publicidad pagada en plataformas digitales como buscadores y redes sociales para atraer tráfico calificado.</p>
+          <div class="responsibilities">
+            <h4>Responsabilidades</h4>
+            <ul>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Estrategia de inversión publicitaria enfocada a objetivos.</span>
+              </li>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Creación y gestión de campañas en <strong>Google Ads</strong> y <strong>Meta Ads</strong>.</span>
+              </li>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Segmentación de audiencias de alto valor.</span>
+              </li>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Pruebas A/B de creatividades, mensajes y formatos.</span>
+              </li>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Análisis de métricas clave (Clics, CPL, ROI) y conversiones.</span>
+              </li>
+            </ul>
+          </div>
+          <a href="paid-media.html" class="area-cta">Ver procesos <span>→</span></a>
+        </article>
+
+        <!-- Website Card -->
+        <article class="area-card" data-particle-shape="braces" data-code-rain>
+          <div class="area-card-header">
+            <div class="area-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <div>
+              <h3>Website</h3>
+              <p class="area-subtitle">Centro de la experiencia digital</p>
+            </div>
+          </div>
+          <p class="area-desc">Gestión y optimización del sitio web como principal punto de contacto con los usuarios, asegurando una interacción clara orientada a la conversión.</p>
+          <div class="responsibilities">
+            <h4>Responsabilidades</h4>
+            <ul>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Administración y actualización de contenido web.</span>
+              </li>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Optimización de estructura y <strong>experiencia de usuario (UX)</strong>.</span>
+              </li>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Desarrollo y mejora continua de Landing Pages.</span>
+              </li>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Alineación e integración para recibir tráfico de campañas.</span>
+              </li>
+              <li>
+                <svg class="resp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2z"/><path d="M10 21h4"/></svg>
+                <span>Implementación de herramientas de medición y analítica.</span>
+              </li>
+            </ul>
+          </div>
+          <a href="websites.html" class="area-cta">Ver procesos <span>→</span></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ DATOS CLAVE ═══════════════ -->
+  <section class="datos-clave" id="datos-clave">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-eyebrow reveal">Resultados 2025</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          3 Datos <span class="italic-accent">Clave</span> del Área Digital <img src="assets/img/bombilla.svg" class="decorative-bombilla" alt="Idea">
+        </h2>
+        <p class="section-subtitle reveal reveal-delay-2">Los logros que marcaron la diferencia en el 2025</p>
+      </div>
+
+      <div class="datos-grid">
+
+        <!-- Card 1 -->
+        <div class="dato-card">
+          <div class="card-icon">⚙️</div>
+          <div class="card-badge">– 2025</div>
+          <h3>Reestructuración de procesos Paid Media</h3>
+          <p>En 2025 se reorganizaron los procesos del área digital para optimizar la gestión de campañas, mejorar la medición de resultados y alinear las estrategias de <strong>paid media</strong> con los objetivos de las cuentas.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="dato-card">
+          <div class="card-icon">🚀</div>
+          <div class="card-badge">– 2025</div>
+          <h3>Gestión y lanzamiento de websites</h3>
+          <p>Durante 2025 se desarrollaron y liberaron <strong>5 nuevas webs del negocio</strong>, enfocadas en mejorar la experiencia del usuario y <strong>fortalecer los canales digitales</strong> de captación.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="dato-card">
+          <div class="card-icon" style="font-size: 0.85rem; font-weight: 800; color: var(--accent-light);">+20<br><span style="font-size: 0.55rem; font-weight: 400; opacity: 0.7;">/ mes</span></div>
+          <div class="card-badge">– 2025</div>
+          <h3>Alta actividad en campañas de Paid Media</h3>
+          <p>El área gestionó más de <strong>20 campañas de publicidad digital por mes</strong>, enfocadas en generación de tráfico, leads y conversiones a través de <strong>distintas plataformas digitales</strong>.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TEAM ═══════════════ -->
+  <section class="team" id="team">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-eyebrow reveal">Conoce al equipo</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          El asombroso <span class="italic-accent">Team</span> Digital <img src="assets/img/bombilla.svg" class="decorative-bombilla" alt="Idea">
+        </h2>
+      </div>
+
+      <!-- Leaders -->
+      <div class="subareas-label reveal">
+        <h3>Líderes</h3>
+      </div>
+
+      <div class="leaders-row">
+        <div class="leader-card">
+          <div class="leader-photo-wrapper">
+            <img src="assets/img/sara.jpeg" alt="Sara" loading="lazy">
+          </div>
+          <h3>Sara</h3>
+          <span class="role">Líder — Patrona</span>
+          <p class="bio"><em>Autodidacta.</em> Ha aprendido todo a través de experiencia laboral y constante aprendizaje. Es conocida por mejorar constantemente y fomentar la creatividad.</p>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-photo-wrapper">
+            <img src="assets/img/joyce.jpeg" alt="Joyce" loading="lazy">
+          </div>
+          <h3>Joyce</h3>
+          <span class="role">Líder — Project Manager</span>
+          <p class="bio"><em>Convierte la estrategia en acción</em> y transforma el caos en procesos que fluyen. Lidera proyectos digitales de principio a fin, optimizando sistemas, tiempos y equipos para que cada entrega sea más ágil, medible y efectiva.</p>
+        </div>
+      </div>
+
+      <!-- Sub-Areas -->
+      <div class="subareas-label reveal">
+        <h3>Sub-Áreas</h3>
+      </div>
+
+      <div class="subareas-grid">
+        <!-- Adrián -->
+        <div class="subarea-card">
+          <span class="area-tag">Paid Media</span>
+          <div class="subarea-photo-wrapper">
+            <img src="assets/img/adrian.jpeg" alt="Adrián" loading="lazy">
+          </div>
+          <h4>Adrián</h4>
+          <span class="member-role">Especialista en Paid Media</span>
+          <p class="bio"><strong>Logró programar todos los anuncios</strong> de todas las cuentas en la primera semana de cada mes. Esta organización no solo optimiza los procesos, sino que también <strong>mejora los resultados de los clientes</strong> de manera inmediata, pues los anuncios tienen un <strong>mayor tiempo de exposición</strong>.</p>
+        </div>
+
+        <!-- Jesús -->
+        <div class="subarea-card">
+          <span class="area-tag">Website</span>
+          <div class="subarea-photo-wrapper">
+            <img src="assets/img/jesus.jpeg" alt="Jesús" loading="lazy">
+          </div>
+          <h4>Jesús</h4>
+          <span class="member-role">Desarrollador Web</span>
+          <p class="bio">Jesús está comenzando lo que él mismo denomina <strong>"el viaje del programador"</strong>, optimizando cada detalle de los sitios web para clientes, con estructuras diferenciadas y <strong>optimización SEO</strong>. De ideas al código, se asegura entregas impecables y personalizadas, como esta misma landing.</p>
+        </div>
+
+        <!-- Marianita -->
+        <div class="subarea-card">
+          <span class="area-tag">Gestión Digital</span>
+          <div class="subarea-photo-wrapper">
+            <img src="assets/img/marianita.png" alt="Marianita" loading="lazy">
+          </div>
+          <h4>Marianita</h4>
+          <span class="member-role">Soporte Digital</span>
+          <p class="bio">Parte integral del equipo digital, aportando <strong>organización y seguimiento</strong> a cada proyecto. Su atención al detalle y compromiso aseguran que cada tarea se ejecute con la <strong>calidad y puntualidad</strong> que caracteriza al team.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════ METAS 2026 ═══════════════ -->
+  <section class="metas" id="metas">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-eyebrow reveal">Mirando al futuro</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          Metas del Team Digital para <span class="italic-accent">2026</span>
+        </h2>
+      </div>
+
+      <div class="metas-grid">
+
+        <!-- Meta 1 -->
+        <div class="meta-card">
+          <div class="meta-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+            </svg>
+          </div>
+          <h3>Reestructuración de procesos digitales</h3>
+          <p>En 2026, se <strong>optimizarán los procesos internos</strong> del equipo para reducir los tiempos de entrega y mejorar la eficiencia en la <strong>gestión de proyectos</strong>. Se establecerán <strong>flujos de trabajo más ágiles</strong> y se alinearán mejor con los objetivos del negocio, garantizando que cada tarea se ejecute de manera eficiente y con <strong>resultados medibles</strong>.</p>
+        </div>
+
+        <!-- Meta 2 -->
+        <div class="meta-card">
+          <div class="meta-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+              <path d="M7 8l3 3-3 3"></path>
+              <line x1="13" y1="14" x2="17" y2="14"></line>
+            </svg>
+          </div>
+          <h3>Investigación e implementación de automatización</h3>
+          <p>El equipo digital <strong>investigará y probará nuevas herramientas de automatización</strong> para procesos del team y solicitudes de cuentas. Esto permitirá un manejo más ágil de las tareas diarias y <strong>optimizará las operaciones internas</strong>, liberando tiempo para estrategias más creativas y de alto impacto.</p>
+        </div>
+
+        <!-- Meta 3 -->
+        <div class="meta-card">
+          <div class="meta-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+            </svg>
+          </div>
+          <h3>Transformación de Website con enfoque de calidad</h3>
+          <p>El área de website se renovará con un enfoque centrado en mejorar la <strong>experiencia del usuario</strong>, fortaleciendo la propuesta de valor al cliente y optimizando la <strong>conversión de visitantes en leads y clientes</strong>. La transformación incluirá mejoras de <strong>SEO</strong>, personalización de contenidos y un diseño más funcional.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand" style="display:flex; align-items:center; gap:12px;">
+        <a href="#hero" class="footer-bombilla-link">
+          <img src="assets/img/bombilla.svg" alt="Idea" class="footer-bombilla">
+        </a>
+        <span style="font-size:1.5rem; font-weight:700; letter-spacing:-0.02em; color:var(--text-primary);">inVicta</span>
+      </div>
+      <p class="footer-tagline">Digital Team — Estrategia, tecnología y datos para fortalecer la presencia digital.</p>
+      <div class="footer-tags">
+        <span>Estrategia</span>
+        <span>Paid Media</span>
+        <span>Websites</span>
+        <span>SEO</span>
+        <span>Gestión Digital</span>
+        <span>Creatividad</span>
+      </div>
+      <p class="footer-copy">Copyright © 2025 inVicta Business Partners. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
