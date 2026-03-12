@@ -73,6 +73,23 @@
         scrollTrigger: { trigger: steps[0], start: 'top 90%' }
       });
     }
+
+    // Text Color "Reveal" on Scroll effect
+    // We exclude footer texts and subtitles to keep hierarchy
+    const paragraphs = gsap.utils.toArray('p:not(.footer-tagline):not(.footer-copy):not(.area-subtitle):not(.section-subtitle):not(.hero-subtitle)');
+    if (paragraphs.length) {
+      paragraphs.forEach(p => {
+        gsap.to(p, {
+          color: '#ffffff',
+          scrollTrigger: {
+            trigger: p,
+            start: 'top 90%', // Begins to brighten as it enters the view
+            end: 'top 60%',   // Reaches pure white slightly above middle of screen
+            scrub: 0.5        // Smooth fluid interpolation linked to scroll position
+          }
+        });
+      });
+    }
   }
 
   /* ═══ 3 · INTERACTIVE HERO PARTICLES ═══ */
