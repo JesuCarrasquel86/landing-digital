@@ -303,11 +303,12 @@ img {
   position: relative;
   min-height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  padding: 140px 0 80px; /* Safe space for navbar at top and scroll at bottom */
   text-align: center;
   overflow: hidden;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .hero::before {
@@ -327,6 +328,8 @@ img {
 .hero-content {
   position: relative;
   z-index: 2;
+  margin: auto; /* Vertically centers the content safely without top overflow */
+  width: 100%;
 }
 
 .hero-eyebrow {
